@@ -14,6 +14,9 @@
 #### 2. Install Jenkins on Ubuntu Machine
 #### 3. Setup Jenkins & Connect with GIT by Installing Github Integration
 #### 4. Finally Enable the Jenkins Script for CI/CD of Docker Provision Node.js
+#### 5. Install Github integration Plugin
+#### 6. Webhook Configuration
+
 
 
 
@@ -371,6 +374,7 @@ Install Github integration Plugin
 
 
 ### Step 6:
+Webhook Configuration
 
 In GitHub SSH OR GPG Key Should Be Present 
 then
