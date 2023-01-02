@@ -339,5 +339,42 @@ docker ps
 
 
 
+### Step 4:-
+
+**Now lets Run the Docker through Jenkins**
+
+Give Full Access to Build Path (Pranoti_G is my Item Name)
+
+```
+sudo chmod 777 /var/lib/jenkins/workspace/Pranoti_G 
+```
+
+To Connect Docker Domain Socket
+
+```
+sudo usermod -a -G docker jenkins
+```
+
+Then Restart Our Jenkins
+
+```
+sudo systemctl restart jenkins
+```
+
+Then add the Build Steps in Execute Shell
+
+![image](https://user-images.githubusercontent.com/121545847/210248806-f21e2c98-45bb-4f48-9e6d-cb9e636139f8.png)
+
+Now check the Port 8000 is running Successfully
+
+![image](https://user-images.githubusercontent.com/121545847/210249093-01ded4b3-5a7e-4350-add7-36fdb96a3dfc.png)
+
+### Step 5:
+
+Install Github integration Plugin
+
+![image](https://user-images.githubusercontent.com/121545847/210249347-96a99fc1-9407-42e5-8bdd-921042c32740.png)
+
+
 
 
