@@ -390,7 +390,9 @@ then Go to jenkins and configure the Build triggers
 ![image](https://user-images.githubusercontent.com/121545847/210254368-c42275c0-8471-4d9d-b99d-3856e0d63e03.png)
 
 
-**Now Change in Github you will see automatic deployment will there
+**Now Change in Github you will see automatic deployment will there**
+
+#### THANK YOU
 
 
 
