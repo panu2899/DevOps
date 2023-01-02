@@ -331,13 +331,6 @@ To check the state of Docker
 docker ps
 ```
 
-### Step 4:-
-
-**Now lets Run the Docker through Jenkins**
-
-![image](https://user-images.githubusercontent.com/84725860/210182648-7e985832-03bb-4d64-93ff-81b3adfb1b22.png)
-
-
 
 ### Step 4:-
 
