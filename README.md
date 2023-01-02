@@ -19,16 +19,15 @@
 
 
 
-
 ### Step 1:
 
 **Go to your AWS Account & Launch an Ubuntu Instance
 Open EC2 -> Instances --> Launch an EC2 Instance
-Select Ubuntu Image**
+Select Ubuntu Image
 
 ![image](https://user-images.githubusercontent.com/84725860/210175095-58852d0b-fbdf-431f-9991-5d12fd35647f.png)
 
-Provide Following Details :
+*Provide Following Details :
 
 Name = Jenkins-Project-1
 
@@ -45,7 +44,7 @@ Note: Please Create a new key pair or use existing one to login
 
 ### Step 2: 
 
-**Connect to your EC2 Instance to Install Jenkins **
+**Connect to your EC2 Instance to Install Jenkins
 
 Run below Commands One by One
 
@@ -122,7 +121,7 @@ You can see below screen
 
 ### Step 3:
 
-**Now Locate your Jenkins Administrator password by command**
+**Now Locate your Jenkins Administrator password by command
 
 
 ```
@@ -337,12 +336,12 @@ docker ps
 
 ### Step 4:-
 
-**Now lets Run the Docker through Jenkins**
+**Now lets Run the Docker through Jenkins
 
-Give Full Access to Build Path (Pranoti_G is my Item Name)
+Give Full Access to Build Path 
 
 ```
-sudo chmod 777 /var/lib/jenkins/workspace/Pranoti_G 
+sudo chmod 777 /var/lib/jenkins/workspace/Item_Name
 ```
 
 To Connect Docker Domain Socket
@@ -368,13 +367,14 @@ Then add the Build Steps in Execute Shell (Panu is the Container name)
 
 ### Step 5:
 
-Install Github integration Plugin
+**Install Github integration Plugin
 
 ![image](https://user-images.githubusercontent.com/121545847/210249347-96a99fc1-9407-42e5-8bdd-921042c32740.png)
 
 
 ### Step 6:
-Webhook Configuration
+
+**Webhook Configuration
 
 In GitHub SSH OR GPG Key Should Be Present 
 then
@@ -388,7 +388,8 @@ then Go to jenkins and configure the Build triggers
 
 ![image](https://user-images.githubusercontent.com/121545847/210254368-c42275c0-8471-4d9d-b99d-3856e0d63e03.png)
 
-**Now Change in Github you will see automatic deployment will there**
+
+**Now Change in Github you will see automatic deployment will there
 
 
 
